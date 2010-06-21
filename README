@@ -1,0 +1,21 @@
+MiniSpec
+========
+
+MiniSpec is a small library built on top of Test::Unit to provide rspec
+syntax for systems where rspec may not be available (such as old versions
+of macruby, or when it's just not feasible to run rspec).
+
+Supported Features
+==================
+
+- context/describe
+- it
+- before, after (always run before each)
+- should, should_not
+- be_true, be_false, be_nil
+- be(_an?)_.*
+- running(&block)
+- include
+- change
+- eql
+- raise_error
